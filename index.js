@@ -15,7 +15,7 @@ function renderConvert () {
         massEl.innerHTML = `<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> You are a champ!</a>`
         return;
     }
-    if(typeof valueTBC != 'number') {
+    if(isNaN(valueTBC) {
         lengthEl.textContent = 'Please provide a number...';
         massEl.textContent = 'Please provide a number...';
         volumeEl.textContent = 'Please provide a number...';
